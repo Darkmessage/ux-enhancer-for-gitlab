@@ -194,7 +194,7 @@
         markAsViewed(event);
 
         setTimeout(() => {
-            (document.querySelector('.diff-files-holder .gl-pagination [data-testid="nextButton"]') as HTMLElement)?.click();
+            (document.querySelector('.rd-app-diffs-list .gl-pagination [data-testid="nextButton"]') as HTMLElement)?.click();
         }, 300);
     }
 
